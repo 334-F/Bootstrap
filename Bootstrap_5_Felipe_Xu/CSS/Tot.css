@@ -1,0 +1,28 @@
+/* Asegura que el html y body ocupen toda la altura disponible */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://img.freepik.com/fotos-premium/germenes-dibujos-animados-inodoro-fondo-pared-azul-concepto-higiene-prevencion-enfermedades-epidemicas-renderizacion-3d_776674-757640.jpg'); /* Imagen de fondo */
+    background-size: cover; /* Hace que la imagen cubra toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+/* El contenedor principal ocupa el espacio disponible */
+.container {
+    flex: 1;
+}
+
+/* Estilos para el footer */
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: auto; /* Empuja el footer al fondo */
+}
+
+footer p {
+    margin: 5px 0;
+}
